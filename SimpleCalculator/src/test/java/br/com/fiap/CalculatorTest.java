@@ -25,4 +25,9 @@ class CalculatorTest {
 	void testCalculateSum() {
 		assertEquals(24.0, new Calculator().calculate("20 + 4"));
 	}
+	
+	@Test
+	void testCalculateAll() {
+		assertEquals(14.0, new Calculator().calculate("3 * 5 - 4 / 2 + 1"));
+	}
 }
