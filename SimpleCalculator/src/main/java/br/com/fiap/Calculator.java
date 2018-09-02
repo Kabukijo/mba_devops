@@ -8,6 +8,7 @@ public class Calculator {
 	public double calculate(String calculation) {
 		
 		calculation = calculation.replace(" ", "");
+		calculation = null;
 
 		List<String> calculatorList = new ArrayList<>();
 		fillCalculatorList(calculatorList, calculation);
