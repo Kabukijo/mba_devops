@@ -30,8 +30,4 @@ class CalculatorTest {
 	void testCalculateAll() {
 		assertEquals(14.0, new Calculator().calculate("3 * 5 - 4 / 2 + 1"));
 	}
-	
-	void testExpectedError() {
-		assertEquals(1.0, new Calculator().calculate("3 * 5 - 4 / 2 + 1"));
-	}
 }
